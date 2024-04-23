@@ -6,7 +6,7 @@ import client.TypeClient;
 public class App {
     public static void main(String[] args) {
         var clint1 = new Account(new Client("João Carlos", TypeClient.CPF), 1, AccountType.CURRENT, 1500.0);
-        var clint2 = new Account(new Client("Maria Fernanda", TypeClient.CPF), 1, AccountType.CURRENT, 1200.0);
+        var clint2 = new Account(new Client("Maria Fernanda", TypeClient.CNPJ), 1, AccountType.SAVINGS, 1200.0);
 
         clint1.transfer(clint2, 500.0);
         clint2.transfer(clint1, 200.0);
