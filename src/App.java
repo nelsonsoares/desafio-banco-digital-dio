@@ -1,7 +1,7 @@
-import account.Account;
-import account.AccountType;
-import client.Client;
-import client.TypeClient;
+import com.desafio.banco.digital.dio.account.Account;
+import com.desafio.banco.digital.dio.account.AccountType;
+import com.desafio.banco.digital.dio.client.Client;
+import com.desafio.banco.digital.dio.client.TypeClient;
 
 public class App {
     public static void main(String[] args) {

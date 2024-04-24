@@ -1,4 +1,4 @@
-package client;
+package com.desafio.banco.digital.dio.client;
 
 public enum TypeClient {
     CPF("Pessoa Física"),

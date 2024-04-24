@@ -1,4 +1,4 @@
-package account;
+package com.desafio.banco.digital.dio.account;
 
 public enum AccountType {
     CURRENT("Conta Corrente"),

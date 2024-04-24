@@ -1,6 +1,6 @@
-package account;
+package com.desafio.banco.digital.dio.account;
 
-import client.Client;
+import com.desafio.banco.digital.dio.client.Client;
 
 public class Account {
     private final Client client; //Cliente
